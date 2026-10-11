@@ -1,1 +1,13 @@
-
+import numpy as np
+roll = np.arange(1, 61)
+time = np.linspace(0, 1, 50)
+zeros = np.zeros(8)
+ones = np.ones(8)
+print("Roll Numbers:", roll)
+print("Time Points:", time)
+print("Zeros:", zeros)
+print("Ones:", ones)
+print("Roll - Length:", len(roll), "Dtype:", roll.dtype)
+print("Time - Length:", len(time), "Dtype:", time.dtype)
+print("Zeros - Length:", len(zeros), "Dtype:", zeros.dtype)
+print("Ones - Length:", len(ones), "Dtype:", ones.dtype)
