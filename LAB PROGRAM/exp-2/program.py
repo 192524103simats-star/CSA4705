@@ -1,13 +1,11 @@
 import numpy as np
-roll = np.arange(1, 61)
-time = np.linspace(0, 1, 50)
-zeros = np.zeros(8)
-ones = np.ones(8)
-print("Roll Numbers:", roll)
-print("Time Points:", time)
-print("Zeros:", zeros)
-print("Ones:", ones)
-print("Roll - Length:", len(roll), "Dtype:", roll.dtype)
-print("Time - Length:", len(time), "Dtype:", time.dtype)
-print("Zeros - Length:", len(zeros), "Dtype:", zeros.dtype)
-print("Ones - Length:", len(ones), "Dtype:", ones.dtype)
+
+X = np.array([4, 6, 8])
+W = np.array([0.5, 0.3, 0.2])
+b = 2
+output = np.dot(X, W) + b
+
+print("Input Vector:", X)
+print("Weight Vector:", W)
+print("Bias:", b)
+print("Predicted Output:", output)
